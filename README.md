@@ -1,3 +1,5 @@
+<h1 align="center">🌐 ESS (Explore Solar System) ✨</h1>
+
 # 🪐 3D Solar System on Web (ALPHA Version)
 
 This is a 3D Solar System Simulation on the Web.

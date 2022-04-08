@@ -11,7 +11,7 @@ import { FiRotateCw, FiMenu } from "react-icons/fi";
 import Slider from "@mui/material/Slider";
 import Divider from "@mui/material/Divider";
 import { useNumberWithDot } from "@utils/hooks";
-import ContextMenu from "@utils/ContextMenu";
+import ContextMenu from "../utils/ContextMenu";
 
 const object = {
     name: "Earth",

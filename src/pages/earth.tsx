@@ -11,7 +11,6 @@ import { FiRotateCw, FiMenu } from "react-icons/fi";
 import Slider from "@mui/material/Slider";
 import Divider from "@mui/material/Divider";
 import { useNumberWithDot } from "@utils/hooks";
-import ContextMenu from "../utils/ContextMenu";
 
 const object = {
     name: "Earth",
@@ -119,7 +118,6 @@ const Earth: NextPage = () => {
                 </React.Suspense>
             </Canvas>
 
-            { ctxMenu && <ContextMenu menuItem={context} x={anchor.x} y={anchor.y} />}
 
             {panelState === false &&
                 <button onClick={() => setPanelState(true)} className="text-white fixed right-2 top-2 text-2xl">

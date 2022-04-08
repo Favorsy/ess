@@ -73,8 +73,12 @@ const Home: NextPage = () => {
         of the Camera with the right click can work.
       </div>
 
-      <div className="fixed top-0 right-0 w-32 text-justify text-gray-300">
+      <div className="fixed top-0 right-0 text-gray-300">
         ALPHA 2.1 (Full Version Coming Soon!)
+      </div>
+
+      <div className="fixed top-0 left-0 text-gray-300">
+        Click to Earth for Details
       </div>
 
     </div>
